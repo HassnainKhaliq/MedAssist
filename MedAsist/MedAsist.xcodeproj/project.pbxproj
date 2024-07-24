@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFDD5CD2C513B83002C6E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5CC2C513B83002C6E13 /* AppDelegate.swift */; };
+		FAFDD5CF2C513B83002C6E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5CE2C513B83002C6E13 /* SceneDelegate.swift */; };
+		FAFDD5D12C513B83002C6E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5D02C513B83002C6E13 /* ViewController.swift */; };
+		FAFDD5D42C513B84002C6E13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD5D32C513B84002C6E13 /* Base */; };
+		FAFDD5D62C513B86002C6E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD5D52C513B86002C6E13 /* Assets.xcassets */; };
+		FAFDD5D92C513B86002C6E13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FAFDD5D82C513B86002C6E13 /* Base */; };
+		FAFDD5E42C513B86002C6E13 /* MedAsistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5E32C513B86002C6E13 /* MedAsistTests.swift */; };
+		FAFDD5EE2C513B86002C6E13 /* MedAsistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5ED2C513B86002C6E13 /* MedAsistUITests.swift */; };
+		FAFDD5F02C513B86002C6E13 /* MedAsistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDD5EF2C513B86002C6E13 /* MedAsistUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFDD5E02C513B86002C6E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFDD5C12C513B83002C6E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFDD5C82C513B83002C6E13;
+			remoteInfo = MedAsist;
+		};
+		FAFDD5EA2C513B86002C6E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFDD5C12C513B83002C6E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFDD5C82C513B83002C6E13;
+			remoteInfo = MedAsist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFDD5C92C513B83002C6E13 /* MedAsist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedAsist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFDD5CC2C513B83002C6E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFDD5CE2C513B83002C6E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAFDD5D02C513B83002C6E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFDD5D32C513B84002C6E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFDD5D52C513B86002C6E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFDD5D82C513B86002C6E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFDD5DA2C513B86002C6E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFDD5DF2C513B86002C6E13 /* MedAsistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedAsistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFDD5E32C513B86002C6E13 /* MedAsistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAsistTests.swift; sourceTree = "<group>"; };
+		FAFDD5E92C513B86002C6E13 /* MedAsistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedAsistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFDD5ED2C513B86002C6E13 /* MedAsistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAsistUITests.swift; sourceTree = "<group>"; };
+		FAFDD5EF2C513B86002C6E13 /* MedAsistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAsistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFDD5C62C513B83002C6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5DC2C513B86002C6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5E62C513B86002C6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFDD5C02C513B83002C6E13 = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5CB2C513B83002C6E13 /* MedAsist */,
+				FAFDD5E22C513B86002C6E13 /* MedAsistTests */,
+				FAFDD5EC2C513B86002C6E13 /* MedAsistUITests */,
+				FAFDD5CA2C513B83002C6E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFDD5CA2C513B83002C6E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5C92C513B83002C6E13 /* MedAsist.app */,
+				FAFDD5DF2C513B86002C6E13 /* MedAsistTests.xctest */,
+				FAFDD5E92C513B86002C6E13 /* MedAsistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFDD5CB2C513B83002C6E13 /* MedAsist */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5FD2C513BD6002C6E13 /* AppDelegates */,
+				FAFDD6012C513C00002C6E13 /* ViewModels */,
+				FAFDD6002C513BFA002C6E13 /* Models */,
+				FAFDD5FF2C513BF2002C6E13 /* Views */,
+				FAFDD5FE2C513BE6002C6E13 /* Controller */,
+				FAFDD5D52C513B86002C6E13 /* Assets.xcassets */,
+				FAFDD5DA2C513B86002C6E13 /* Info.plist */,
+			);
+			path = MedAsist;
+			sourceTree = "<group>";
+		};
+		FAFDD5E22C513B86002C6E13 /* MedAsistTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5E32C513B86002C6E13 /* MedAsistTests.swift */,
+			);
+			path = MedAsistTests;
+			sourceTree = "<group>";
+		};
+		FAFDD5EC2C513B86002C6E13 /* MedAsistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5ED2C513B86002C6E13 /* MedAsistUITests.swift */,
+				FAFDD5EF2C513B86002C6E13 /* MedAsistUITestsLaunchTests.swift */,
+			);
+			path = MedAsistUITests;
+			sourceTree = "<group>";
+		};
+		FAFDD5FD2C513BD6002C6E13 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5CC2C513B83002C6E13 /* AppDelegate.swift */,
+				FAFDD5CE2C513B83002C6E13 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		FAFDD5FE2C513BE6002C6E13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5D02C513B83002C6E13 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAFDD5FF2C513BF2002C6E13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDD5D72C513B86002C6E13 /* LaunchScreen.storyboard */,
+				FAFDD5D22C513B84002C6E13 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAFDD6002C513BFA002C6E13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAFDD6012C513C00002C6E13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFDD5C82C513B83002C6E13 /* MedAsist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFDD5F32C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsist" */;
+			buildPhases = (
+				FAFDD5C52C513B83002C6E13 /* Sources */,
+				FAFDD5C62C513B83002C6E13 /* Frameworks */,
+				FAFDD5C72C513B83002C6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedAsist;
+			productName = MedAsist;
+			productReference = FAFDD5C92C513B83002C6E13 /* MedAsist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFDD5DE2C513B86002C6E13 /* MedAsistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFDD5F62C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsistTests" */;
+			buildPhases = (
+				FAFDD5DB2C513B86002C6E13 /* Sources */,
+				FAFDD5DC2C513B86002C6E13 /* Frameworks */,
+				FAFDD5DD2C513B86002C6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFDD5E12C513B86002C6E13 /* PBXTargetDependency */,
+			);
+			name = MedAsistTests;
+			productName = MedAsistTests;
+			productReference = FAFDD5DF2C513B86002C6E13 /* MedAsistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFDD5E82C513B86002C6E13 /* MedAsistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFDD5F92C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsistUITests" */;
+			buildPhases = (
+				FAFDD5E52C513B86002C6E13 /* Sources */,
+				FAFDD5E62C513B86002C6E13 /* Frameworks */,
+				FAFDD5E72C513B86002C6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFDD5EB2C513B86002C6E13 /* PBXTargetDependency */,
+			);
+			name = MedAsistUITests;
+			productName = MedAsistUITests;
+			productReference = FAFDD5E92C513B86002C6E13 /* MedAsistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFDD5C12C513B83002C6E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FAFDD5C82C513B83002C6E13 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FAFDD5DE2C513B86002C6E13 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAFDD5C82C513B83002C6E13;
+					};
+					FAFDD5E82C513B86002C6E13 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAFDD5C82C513B83002C6E13;
+					};
+				};
+			};
+			buildConfigurationList = FAFDD5C42C513B83002C6E13 /* Build configuration list for PBXProject "MedAsist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFDD5C02C513B83002C6E13;
+			productRefGroup = FAFDD5CA2C513B83002C6E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFDD5C82C513B83002C6E13 /* MedAsist */,
+				FAFDD5DE2C513B86002C6E13 /* MedAsistTests */,
+				FAFDD5E82C513B86002C6E13 /* MedAsistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFDD5C72C513B83002C6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDD5D62C513B86002C6E13 /* Assets.xcassets in Resources */,
+				FAFDD5D92C513B86002C6E13 /* Base in Resources */,
+				FAFDD5D42C513B84002C6E13 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5DD2C513B86002C6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5E72C513B86002C6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFDD5C52C513B83002C6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDD5D12C513B83002C6E13 /* ViewController.swift in Sources */,
+				FAFDD5CD2C513B83002C6E13 /* AppDelegate.swift in Sources */,
+				FAFDD5CF2C513B83002C6E13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5DB2C513B86002C6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDD5E42C513B86002C6E13 /* MedAsistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFDD5E52C513B86002C6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDD5F02C513B86002C6E13 /* MedAsistUITestsLaunchTests.swift in Sources */,
+				FAFDD5EE2C513B86002C6E13 /* MedAsistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFDD5E12C513B86002C6E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFDD5C82C513B83002C6E13 /* MedAsist */;
+			targetProxy = FAFDD5E02C513B86002C6E13 /* PBXContainerItemProxy */;
+		};
+		FAFDD5EB2C513B86002C6E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFDD5C82C513B83002C6E13 /* MedAsist */;
+			targetProxy = FAFDD5EA2C513B86002C6E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFDD5D22C513B84002C6E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFDD5D32C513B84002C6E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFDD5D72C513B86002C6E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFDD5D82C513B86002C6E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFDD5F12C513B86002C6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFDD5F22C513B86002C6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFDD5F42C513B86002C6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedAsist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFDD5F52C513B86002C6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedAsist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFDD5F72C513B86002C6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedAsist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedAsist";
+			};
+			name = Debug;
+		};
+		FAFDD5F82C513B86002C6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedAsist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedAsist";
+			};
+			name = Release;
+		};
+		FAFDD5FA2C513B86002C6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedAsist;
+			};
+			name = Debug;
+		};
+		FAFDD5FB2C513B86002C6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9F78Z875B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevPool.MedAsistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedAsist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFDD5C42C513B83002C6E13 /* Build configuration list for PBXProject "MedAsist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDD5F12C513B86002C6E13 /* Debug */,
+				FAFDD5F22C513B86002C6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFDD5F32C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDD5F42C513B86002C6E13 /* Debug */,
+				FAFDD5F52C513B86002C6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFDD5F62C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDD5F72C513B86002C6E13 /* Debug */,
+				FAFDD5F82C513B86002C6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFDD5F92C513B86002C6E13 /* Build configuration list for PBXNativeTarget "MedAsistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDD5FA2C513B86002C6E13 /* Debug */,
+				FAFDD5FB2C513B86002C6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFDD5C12C513B83002C6E13 /* Project object */;
+}
